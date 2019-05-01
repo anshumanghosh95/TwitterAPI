@@ -12,11 +12,13 @@ from plotly import plotly as py
 from plotly import graph_objs as go
 #from IPython.display import HTML, display
 
-plotly.tools.set_credentials_file(username='anshumanghosh95', api_key='rbWMOb61Fv5tpSAmUGa6')
-consumer_key = "YLCMJCUQmwhztqhxOPuGh4waJ"
-consumer_secret = "IQrDM2u8j6BzBWes38jjm8EXBFq1mbLvu4p0QsV23crikqVBPt"
-access_key = "144730236-ViqdspNSUGXwhH1ancMW01HD0jjNA1NHtwmXw1tF"
-access_secret = "7FOmP4RP7uB2QSeN1Rl5GKf5044DYRDgzroHWIOTibOba"
+plotly.tools.set_credentials_file(username='<plotly user_name>', api_key='<plotly api_key>') 
+#create account in plotly to get username and key
+#create app in twitter developer and obtain below for parameter
+consumer_key = "<twitter consumer Key>"
+consumer_secret = "<twitter consumer secret>"
+access_key = "<twitter access key>"
+access_secret = "<twitter access secret>"
 
 # Function to extract tweets 
 def get_tweets(username): 
